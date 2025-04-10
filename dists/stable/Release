@@ -1,17 +1,22 @@
-Date: Thu, 10 Apr 2025 19:57:09 +0000
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Thu, 10 Apr 2025 20:58:53 +0000
+Description: My APT Repository
+Suite: stable
 MD5Sum:
- e848531d14a4cd4b0aa508800eb22075               38 Release
+ f657c62337c05504fe086985180fe2f6              138 Release
  753a0fe7ddbec0e6c75ccc6d171ba221              676 main/binary-amd64/Packages
  8db29d1fad86ba2ae2d65a528c00ff1d              464 main/binary-amd64/Packages.gz
 SHA1:
- 25304da325340a001e6fc6290c8ddc10b7e36666               38 Release
+ def3add04605da84269f381dc3e80ceb2e49ddb2              138 Release
  d76b50e1b3c672efbc371a4a498e9c47775e702d              676 main/binary-amd64/Packages
  3ef5ab2b0cad8bb36cb3700d22437d18ab32313b              464 main/binary-amd64/Packages.gz
 SHA256:
- 3a829b795d2e382c7ab7d9d89e25191ab1ab7cd30d9cb61b88679efc75dc8d87               38 Release
+ 968b6258dfd898fa2fcffda10355323b81045d215ac53ee5f5a0e4ac9a68d873              138 Release
  362a891cdb89f7f6c8429c0a4dc5fb3f83c160185758384a2879f4345afff6a0              676 main/binary-amd64/Packages
  6537b1e8f66445258d2359e27f5c9f275221c1cacfe8f7ae7a33e7ed88f756cd              464 main/binary-amd64/Packages.gz
 SHA512:
- 711a0870ceba7bd2b47f02e6eb474c626a2d49ef2784e886d6799aa65364c00f994a5a789ca7d11d5a863c4c6fdd61f548ed2c95e4d208269d25978a3aefaa39               38 Release
+ 7b925162e270f5ef3c4a83f8870fd0db570b94770b45aab37e928a6c78b22d47b3298a557d70006a8aeccf92119af91ad9b808c5d65e973c4eb8dfd4e5ce7468              138 Release
  de6cf2efda7c53bb79e91fe0d62f76466d3f4121964bac5879b925d6bf9eb3af01f14d1c1f724e16ef49629ed00e290175c0a63dfe60caf238443654fe0e9d52              676 main/binary-amd64/Packages
  969a50f9e582378e5c9f5cfbb276fb1a8a1967d67d42bd453344aebfe800e82363fcd90574e8f02f33a283a95b4f4cfd733cf6dc809905ec0ee981d2d12f7d0b              464 main/binary-amd64/Packages.gz

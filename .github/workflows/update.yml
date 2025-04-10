@@ -1,4 +1,4 @@
-name: Update Repo
+name: Update APT Repo
 
 on:
   push:
@@ -10,29 +10,39 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gnupg
+
       - name: Setup GPG
         run: |
           echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
           echo "trust-model tofu" >> ~/.gnupg/gpg.conf
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
 
       - name: Generate Packages
         run: |
           cd pool/main
           dpkg-scanpackages -m . /dev/null > Packages
-          gzip -k Packages
+          gzip -k -f Packages
           cp Packages.gz ../../dists/stable/main/binary-amd64/
 
       - name: Generate Release
         run: |
           apt-ftparchive release dists/stable/ > dists/stable/Release
-          gpg -abs -u "${{ secrets.GPG_KEY_ID }}" -o dists/stable/Release.gpg dists/stable/Release
-          gpg --clearsign -u "${{ secrets.GPG_KEY_ID }}" -o dists/stable/InRelease dists/stable/Release
+          gpg --batch --yes --passphrase "${{ secrets.PASSPHRASE}}" --default-key "${{ secrets.GPG_KEY_ID}}" -abs -o dists/stable/Release.gpg dists/stable/Release
+          gpg --batch --yes --passphrase "${{ secrets.PASSPHRASE}}" --default-key "${{ secrets.GPG_KEY_ID}}" --clearsign -o dists/stable/InRelease dists/stable/Release
 
-      - name: Push changes
+      - name: Commit and Push
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          git pull --rebase origin main
           git add .
           git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')"
-          git push
+          git push origin main

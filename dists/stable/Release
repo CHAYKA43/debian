@@ -1,0 +1,24 @@
+Origin: Chayka43
+Label: Chayka43
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Custom APT repo on GitHub Pages
+Date: Sat, 12 Apr 2025 20:19:10 +0000
+MD5Sum:
+ 9e43b5b845c5205f021c9f5a314b643e              185 Release
+ 9652810a2755d36426396a423d34b47e             1312 main/binary-amd64/Packages
+ c7f1743b35d0d8884025ff9e60bfc0f9              772 main/binary-amd64/Packages.gz
+SHA1:
+ b9bc1744c685a132b7515cf2ab75bd26ed6a6d89              185 Release
+ 37b605993f4454bd2f5b573a552541fbdf360413             1312 main/binary-amd64/Packages
+ 06323b0dbf960ebc2b5acaca605fdb306079d59f              772 main/binary-amd64/Packages.gz
+SHA256:
+ 5164db9e553d004cb37e10081d868076047bb036ea17ef2724fb8b581c27b47e              185 Release
+ a2666d0cca2e8553c9baa778ba262c6d7c69d863cb5719ec17f772e63e989a3c             1312 main/binary-amd64/Packages
+ 94281f14f37ab72df1ef896db7eb17f045b42ff6a7b3ccbd95c3537f844636d8              772 main/binary-amd64/Packages.gz
+SHA512:
+ 60f0879f43bc999cd8a105bf75d4b08ea5d193dfd43412a6496e3a4783c69b9c532a6ed61f368b9c8668a3d26b9735a305bb79e34a11cc5ea6b9118918d6be23              185 Release
+ 273deac3e31cf9d63ebda1de237a95741ef9459d99f1a703e791d4ec3e4d967ddf4a2333768b8eaec91f69633782adf69c0471b3e148f20055b828425487935a             1312 main/binary-amd64/Packages
+ 7c0b2774357198be8a84c1fe5b00bb99f0d9f163e5434a8f3d784ab2a120ca1e64ad7396d96fbae51bf7a7ca71bd0f96633ef865ba3fec9c125b78ae08f5511f              772 main/binary-amd64/Packages.gz

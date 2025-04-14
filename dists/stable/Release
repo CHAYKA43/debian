@@ -5,20 +5,20 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Custom APT repo on GitHub Pages
-Date: Sun, 13 Apr 2025 18:46:00 +0000
+Date: Mon, 14 Apr 2025 15:13:43 +0000
 MD5Sum:
- c6a2c007598f517c9ca675c56d201649              185 Release
+ 981f6419dd915fd6d4a3e99be6a58ac7              185 Release
  e7c6700cd7144c2a3e1f3b1ae36851bd             2216 main/binary-amd64/Packages
- 5285abaa17db641cd06a543cbbf3dda8             1194 main/binary-amd64/Packages.gz
+ ae8d2e627636c557112fd34f668eedef             1194 main/binary-amd64/Packages.gz
 SHA1:
- 93c2e342e6cf1e746f23694d8e897bdb5ca6c0a4              185 Release
+ 129496aba4f9146c3f18be88013526a60f68db43              185 Release
  cb3c4c4a8163f6514450f0e35256eccea88c397d             2216 main/binary-amd64/Packages
- 27f90f8edefa91d5f375003460dd2c5b0d223b2d             1194 main/binary-amd64/Packages.gz
+ caa4b9fb4e5c0336ff3aeb0f4c168e06e5db1c2f             1194 main/binary-amd64/Packages.gz
 SHA256:
- 26e7b2950211cddebc2df03ecf75207b69df757af8a4c092c3fc1f0cab7ac06b              185 Release
+ 4056049c4706843c05168070de561de487df6b2ba47e7a506e1df4d40cd81e3e              185 Release
  6bc57abe689d173f070442a50519e52fbc4fdb7bbad5111edf2d52bfd597fc61             2216 main/binary-amd64/Packages
- f13f4b636d682efca532c8be5423ef4f393584ea8e7a772dd9556700dd5868f6             1194 main/binary-amd64/Packages.gz
+ 46de416163ec5f91f31358fc8f7d4f72e914d2fc2d3743a5036ed8fcf184c7d4             1194 main/binary-amd64/Packages.gz
 SHA512:
- e350833276fed2e2ccac5a397be0785e88219eecb05829218dedce69328b9b86ae0d9c19e1cda93347144c342305ea03b14cef383a085f2d1aa449e0ea87501f              185 Release
+ b138cff966212bd67330225d584104f4801fc53a3ef1d4b6e8a4e4b1f6b4a21cd181bb92be99e29d499c160e206e29c607f7bcbd4776601a36fa6f410c768bb5              185 Release
  82b70e0f0bf655a84a4069bfaf646bd9a330026ec64856a29f5d69b6463b4e42e88f2f425b61f99d8eb73daa5172d45bfbe5bfdab6aeca709591fbcc0dad25d6             2216 main/binary-amd64/Packages
- 7ddb92ff5f4832133335806e1ec97fb141c19ecc45b4052f9ad293e93794de72b4eb17d1ca30398ee2d4d2722fb4934159b59342962fa0d0979524cc5984aa9b             1194 main/binary-amd64/Packages.gz
+ bcc0d8e5225b7d4255653baa21a41dfd3df22144995cf7cbf5f05763111d215f720d7cf296f0aa0627190d12c82bd014c63f0b91c5daa324619378eedd923b46             1194 main/binary-amd64/Packages.gz

@@ -1,20 +1,3 @@
-Package: fastfetch
-Version: 2.40.4
-Architecture: amd64
-Maintainer: Linus Dierheimer <Linus@Dierheimer.de>
-Installed-Size: 28873
-Depends: libc6 (>= 2.31)
-Filename: pool/main/fastfetch-linux-amd64.deb
-Size: 7529550
-MD5sum: 9725381e4df2451943a15727ae17cafd
-SHA1: 8dc630fcde0b4b5382911e649a26598999a8514e
-SHA256: 8279ac5a57232f25b72f93649fedc8fe4eb40a3892c6357a2cce69664791c4a7
-Section: devel
-Priority: optional
-Homepage: https://github.com/fastfetch-cli/fastfetch
-Description: Fast neofetch-like system information tool
- fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
-
 Package: htop
 Version: 3.4.1
 Architecture: all

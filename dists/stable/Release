@@ -5,20 +5,20 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Custom APT repo on GitHub Pages
-Date: Fri, 09 May 2025 16:16:06 +0000
+Date: Fri, 16 May 2025 14:23:41 +0000
 MD5Sum:
- 21d9325b8da453bd496ad0b95fb7c779              185 Release
- ced0b248c7fb91a36546fc7f48791613             2218 main/binary-amd64/Packages
- 683fa56b7e79a2ac38cbd0ce7b1bf559             1201 main/binary-amd64/Packages.gz
+ 4e35c3a15a6685076c7910b2cdcc7d02              185 Release
+ 247d7433841c54af70cd023c036cab6c             1532 main/binary-amd64/Packages
+ fb7785c822078e5934900eefee66579d              913 main/binary-amd64/Packages.gz
 SHA1:
- 594cc80019336d7ed02541c9d0fe06ffabec59e2              185 Release
- 63e5bfc68d9bedbfb7d0df19bc2505830609aa22             2218 main/binary-amd64/Packages
- 9ccce4c7f7b6d409e6e88e4b21c3dd6ef3ded68b             1201 main/binary-amd64/Packages.gz
+ 38e96a39e107af1c3fceffeae6f60694fa9f351e              185 Release
+ 80083bb4685f296b9d36d6ffdf6f6a4f21fa8dbe             1532 main/binary-amd64/Packages
+ 4eb51a4c317209170b9792c3b5bdee7f85b6b9ac              913 main/binary-amd64/Packages.gz
 SHA256:
- f2ebf48f8cc86f758527dc344b9a4c96f7a3dd3b68204bd18187ce03aad15fd7              185 Release
- 58dfb942ac589c38f3a856c221fa000f859ce7d9ad8df352e88bada3ff904f1b             2218 main/binary-amd64/Packages
- dd299555660269db5cbb7f4dc45354eea36c2baf6dbf7984b7b639904d79e80d             1201 main/binary-amd64/Packages.gz
+ befd96d76eadcb8109b92a10e87f329ce1a01532dcabd81d2a05efb82b973db7              185 Release
+ dae94a88efeae19b5bfbc44adefc5da1564d158b0cb99cbdf2e78a14c95ae1bc             1532 main/binary-amd64/Packages
+ 929194e0460822c630d9ad3f9cecccb13c4dd3413a3f88a46175c5e5edd78cf4              913 main/binary-amd64/Packages.gz
 SHA512:
- ccae23f6377d1328aea9888598953c87f8f085bc081b8754a5d3f6650c1a784a13e468cf4aab2f2bd7b632e5e3b39ad4581b583c8137e45f8edd5840df08c6b2              185 Release
- 984486e2ce4844b2ac352c40cadd511df9600b1b6445fed8c479c7b9a771af929b86b83d51b3f0b1c63673e713088f30bf45dc6970b41adf02030d97e426f798             2218 main/binary-amd64/Packages
- 921eef32b4a4dc785e408054f5332088a3a16b827ef0ac231ce150e8dd61521bc600fe56b914b3e819e58edf033464b1f8acab1f5603c22a44ccfd512f9f76f1             1201 main/binary-amd64/Packages.gz
+ 44873cef2a8351c2f37c8d9a75a60a35eed2e6315b0094b1ea7e9ca728f2d24dcb671c1bf8ffe9a76ad4012cc0d92bf338baa052c14fd7b7acc19b8829216246              185 Release
+ ec05a45df731ff1600c46ed121aabc03924394684c4f81786d32fc3b46520c0666c6ab6267cad662285780ee524fcd6ece64fc65193d4a260cb64c8993e5262b             1532 main/binary-amd64/Packages
+ b62cb6a3ce30bea2524aaae3f655eb305fb60fc75fe22ac227d461f05fd9e18f6e67ed3a42ccbb65840d6a000069d8fb915f11d2a6df2afd0bff5c373aef4c7d              913 main/binary-amd64/Packages.gz

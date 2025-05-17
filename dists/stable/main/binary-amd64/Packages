@@ -36,3 +36,24 @@ Description: Interactive process viewer for Unix systems
  https://github.com/htop-dev/htop
 License: GPL-2
 
+Package: realvnc-rvncconnect
+Source: realvnc
+Version: 8.0.0
+Architecture: amd64
+Maintainer: RealVNC <noreply@realvnc.com>
+Installed-Size: 61033
+Depends: libatk1.0-0 (>= 1.32.0), libc6 (>= 2.27), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.12), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.90), libgtk-3-0 (>= 3.21.4), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 5.2), libx11-6, libxext6, libxtst6
+Recommends: cups
+Suggests: avahi-daemon
+Filename: pool/main/RealVNC-Connect-8.0.0-Linux-x64.deb
+Size: 17830264
+MD5sum: 3cc11989db58accc16922b6bc839c53e
+SHA1: cb009e40e2633518b9b5458bda73e4a36f91bc91
+SHA256: 8720cb42f0a3a8f070d933fcbc02048cce9e1ff1c0bcd1203d20fa111686b9d9
+Section: net
+Priority: optional
+Homepage: https://www.realvnc.com/
+Description: RealVNC Connect
+ RealVNC Connect, from RealVNC, the original inventor of VNC technology, is remote access
+ software that enables you to securely connect to and control a remote computer.
+

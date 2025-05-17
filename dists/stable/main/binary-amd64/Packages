@@ -36,27 +36,3 @@ Description: Interactive process viewer for Unix systems
  https://github.com/htop-dev/htop
 License: GPL-2
 
-Package: realvnc-vnc-viewer
-Source: realvnc-vnc
-Version: 7.13.1.57
-Architecture: amd64
-Maintainer: RealVNC <noreply@realvnc.com>
-Installed-Size: 12624
-Depends: libc6 (>= 2.3), libgcc1 (>= 1:4.1.1), libx11-6, libxext6
-Conflicts: vnc-e, xtightvncviewer
-Filename: pool/main/VNC-Viewer-7.13.1-Linux-x64.deb
-Size: 4239692
-MD5sum: e014f5eb7baea40964cdead54ff96d8c
-SHA1: 273b8ce6a839ffb19bf5116921af3718ccb74514
-SHA256: e9bc98d197ff5dc5e078a41d6077e6ba07dd4dc3257b0557f46cc17d763e31d0
-Section: x11
-Priority: optional
-Homepage: https://www.realvnc.com/
-Description: VNC® Viewer
- VNC Viewer, from RealVNC, the original inventor of VNC technology, is remote access
- software that enables you to securely connect to and control a remote
- computer.
- RealVNC recommends the realvnc-vnc-server package (VNC Server) for the
- remote computer, for seamless, secure and reliable connections. A free trial
- is available.
-
